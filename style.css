@@ -1,0 +1,60 @@
+.output{
+    width: 400px;
+    height: 100px;
+    background-color:#283739;
+    font-size: xx-large;
+    font-family: monospace;
+}
+p{
+    margin:0px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color:#a2c11c;
+   border-color: #283739;
+   border-style: double;
+   font-size: xx-large;
+   font-family: monospace;
+  
+}
+button:hover{
+    filter: brightness(125%);
+}
+.C{
+    height: 100px;
+    width: 200px;
+}
+.operator{
+    border-right: 0;
+    background-color: #2c5d63;
+    color: #a2c11c;
+    font-size: 50px;
+}
+button:nth-child(1),
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16){
+    border-left:0;
+  }
+button:last-child{
+    border-bottom: 0;
+}
+  
+.Zero{
+    height: 100px;
+    width: 300px;
+    border-bottom: 0;
+}
+.buttons{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
